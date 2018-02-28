@@ -1,0 +1,41 @@
+Hibernate
+ORM
+
+JAVA APP --> Hibernate>JDBC >>>> DB
+
+[Hibernate Development Process]
+1.Add hibernate configuration file
+2.Annotate Java Class
+3.Develop java code to perform database operation
+
+Entiry Class [POJO]
+
+2 OPTION for Mapping
+
+1.XML
+2.Annotation
+
+
+Two Key Player
+
+SessionFactory --> Read the Hibernate config file
+Create Session objects
+Heavy-weight object
+Only create once in your app
+
+Session --> Wraps a JDBC connection
+Main object used to save/retrieve objects
+Short-lived object
+Retrieve from SessionFactory 
+
+---------------------------
+Save a java Object
+
+.start transaction
+.save object
+.commit the transaction
+
+
+
+HQL --> 
+
